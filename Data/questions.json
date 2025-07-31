@@ -1,0 +1,107 @@
+[
+	{
+		"question": "Jaki jest największy ocean na świecie?",
+		"answers": ["Atlantycki", "Spokojny", "Arktyczny", "Indyjski"],
+		"correct": "Spokojny"
+	},
+	{
+		"question": "Który pierwiastek ma symbol 'O'?",
+		"answers": ["Złoto", "Tlen", "Cyna", "Srebro"],
+		"correct": "Tlen"
+	},
+	{
+		"question": "Kto napisał 'Romeo i Julia'?",
+		"answers": ["Homer", "Mickiewicz", "Szekspir", "Orwell"],
+		"correct": "Szekspir"
+	},
+	{
+		"question": "Jakie jest największe zwierzę lądowe?",
+		"answers": ["Hipopotam", "Nosorożec", "Słoń", "Żyrafa"],
+		"correct": "Słoń"
+	},
+	{
+		"question": "Które państwo ma największą powierzchnię?",
+		"answers": ["USA", "Chiny", "Rosja", "Kanada"],
+		"correct": "Rosja"
+	},
+	{
+		"question": "Ile wynosi pierwiastek kwadratowy z 81?",
+		"answers": ["9", "8", "7", "6"],
+		"correct": "9"
+	},
+	{
+		"question": "Który kontynent jest najmniejszy?",
+		"answers": ["Europa", "Australia", "Antarktyda", "Afryka"],
+		"correct": "Australia"
+	},
+	{
+		"question": "Jak nazywa się planeta najbliższa Słońcu?",
+		"answers": ["Wenus", "Ziemia", "Merkury", "Mars"],
+		"correct": "Merkury"
+	},
+	{
+		"question": "W którym roku wybuchła II wojna światowa?",
+		"answers": ["1935", "1939", "1945", "1941"],
+		"correct": "1939"
+	},
+	{
+		"question": "Który język ma najwięcej użytkowników na świecie?",
+		"answers": ["Angielski", "Chiński", "Hiszpański", "Hinduski"],
+		"correct": "Chiński"
+	},
+	{
+		"question": "Który kolor powstaje z połączenia niebieskiego i żółtego?",
+		"answers": ["Zielony", "Fioletowy", "Pomarańczowy", "Brązowy"],
+		"correct": "Zielony"
+	},
+	{
+		"question": "Kto namalował 'Mona Lisę'?",
+		"answers": ["Leonardo da Vinci", "Picasso", "Van Gogh", "Rembrandt"],
+		"correct": "Leonardo da Vinci"
+	},
+	{
+		"question": "Jaki jest symbol chemiczny złota?",
+		"answers": ["Au", "Ag", "Zn", "Cu"],
+		"correct": "Au"
+	},
+	{
+		"question": "Które zwierzę żyje najdłużej?",
+		"answers": ["Papuga", "Żółw", "Rekin", "Wieloryb"],
+		"correct": "Żółw"
+	},
+	{
+		"question": "Ile kontynentów jest na świecie?",
+		"answers": ["5", "6", "7", "8"],
+		"correct": "7"
+	},
+	{
+		"question": "Co jest stolicą Francji?",
+		"answers": ["Berlin", "Paryż", "Londyn", "Rzym"],
+		"correct": "Paryż"
+	},
+	{
+		"question": "Które zwierzę jest najszybsze na lądzie?",
+		"answers": ["Gepard", "Lew", "Antylopa", "Struś"],
+		"correct": "Gepard"
+	},
+	{
+		"question": "Jak nazywa się proces zamiany wody w parę?",
+		"answers": ["Parowanie", "Skraplanie", "Topnienie", "Krystalizacja"],
+		"correct": "Parowanie"
+	},
+	{
+		"question": "Kto był pierwszym człowiekiem na Księżycu?",
+		"answers": [
+			"Neil Armstrong",
+			"Buzz Aldrin",
+			"Jurij Gagarin",
+			"Alan Shepard"
+		],
+		"correct": "Neil Armstrong"
+	},
+	{
+		"question": "Jak nazywa się największa pustynia na Ziemi?",
+		"answers": ["Gobi", "Sahara", "Atakama", "Antarktyda"],
+		"correct": "Antarktyda"
+	}
+]
