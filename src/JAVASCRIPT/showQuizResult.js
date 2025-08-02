@@ -6,7 +6,7 @@ export default function showQuizResult(questionsIndexHistory, amount) {
 	const result = document.createElement('div');
 	result.classList.add('result-container');
 	result.innerHTML = `
-     <img src="/quiz-over.png"  class="result-img" alt="" />
+     <img src="/quiz-over.png"  class="result-img" alt="Result-image" />
 			<h2 class="result-title">Quiz Completed!</h2>
 			<p class="result-message">
 				You answered <b>${correctAnswersCount}</b> out of <b>${amount}</b> questions correctly.
