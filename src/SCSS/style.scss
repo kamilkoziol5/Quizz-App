@@ -1,15 +1,7 @@
-@use 'variables' as *;
-
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
-}
-
-body {
-	min-height: 100dvh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+@use './base' as *;
+@use './variables' as *;
+@use './quiz-config' as *;
+@use './quiz-questions' as *;
+@use './quiz-result' as *;
+@use './button' as *;
+@use 'mediaQuery' as *;

@@ -1,0 +1,129 @@
+@use 'variables' as *;
+
+.quiz-container {
+	margin: 1rem;
+	max-width: 550px;
+	width: 100%;
+	background-color: $whiteColor;
+	border-radius: 1rem;
+	border: 1px solid #757575;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
+	animation: dropBounceIn 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+
+	.quiz-header {
+		padding: 1.5rem 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 1rem;
+
+		.quiz-title {
+			font-size: 1.3rem;
+			font-weight: 700;
+		}
+
+		.quiz-timer {
+			display: flex;
+			align-items: center;
+			background-color: $textColor;
+			border-radius: 6px;
+			padding: 8px;
+			color: $whiteColor;
+			gap: 0.4rem;
+			font-weight: 700;
+			width: 70px;
+
+			span {
+				font-size: 1.3rem;
+			}
+		}
+	}
+
+	.quiz-content {
+		padding: 1rem 2rem;
+
+		.question-text {
+			font-size: 1.5rem;
+			font-weight: 600;
+		}
+
+		.answer-options {
+			list-style: none;
+			margin: 1.5rem 0;
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			.answer-option {
+				position: relative;
+				padding: 12px;
+				background-color: $whiteColor;
+				border: 1px solid $strokeColor;
+				font-weight: 500;
+				cursor: pointer;
+				border-radius: 6px;
+				transition: 300ms ease;
+				display: flex;
+				justify-content: space-between;
+
+				&:not(.disabled):hover {
+					background-color: $accent-hover;
+				}
+
+				&.correct {
+					background-color: #b7e1c1;
+					border-color: #d4edda;
+					color: #155724;
+				}
+
+				&.incorrect {
+					background-color: #f4bec3;
+					border-color: #f8d7da;
+					color: #721c24;
+				}
+
+				&.disabled {
+					cursor: not-allowed !important;
+					opacity: 0.9;
+				}
+
+				span {
+					display: block;
+					flex-shrink: 0;
+				}
+			}
+		}
+	}
+	.quiz-footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-top: 1px solid #c6c6c6;
+		padding: 1.5rem 2rem;
+
+		.question-status {
+			font-weight: 500;
+
+			b {
+				font-weight: 700;
+			}
+		}
+	}
+
+	&.show {
+		display: block;
+	}
+}
+
+@keyframes dropBounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.55);
+		filter: blur(5px);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+		filter: blur(0);
+	}
+}

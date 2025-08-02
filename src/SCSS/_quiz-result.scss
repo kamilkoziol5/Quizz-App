@@ -1,0 +1,42 @@
+@use 'variables' as *;
+
+.result-container {
+	margin: 1rem;
+	padding: 2rem;
+	max-width: 550px;
+	width: 100%;
+	background-color: $whiteColor;
+	border-radius: 1rem;
+	border: 1px solid #757575;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+	text-align: center;
+
+	.result-img {
+		max-width: 120px;
+		width: 100%;
+	}
+
+	.result-title {
+		font-size: 2rem;
+	}
+
+	.result-message {
+		font-size: 1.1rem;
+		line-height: 2rem;
+		font-weight: 300;
+	}
+
+	.result-message b {
+		color: $backgroundColor;
+		font-weight: 700;
+		font-size: 1.3rem;
+	}
+
+	.try-again-btn {
+	}
+}

@@ -1,0 +1,118 @@
+@use 'variables' as *;
+
+// Media Query For Quizz App
+@media (max-width: 550px) {
+	// Config Container
+	.config-container {
+		padding: 2rem;
+
+		h2 {
+			margin-bottom: 1.5rem;
+			font-size: 1.5rem;
+		}
+
+		.config-option {
+			h4 {
+				font-size: 1.2rem;
+			}
+
+			.category-options {
+				grid-template-columns: 1fr;
+				gap: 0.7rem;
+
+				.category-option {
+					padding: 10px;
+					font-size: 0.9rem;
+				}
+			}
+
+			.question-options {
+				gap: 0.7rem;
+
+				.question-option {
+					width: 40px;
+					height: 40px;
+					font-size: 0.9rem;
+				}
+			}
+		}
+	}
+
+	// Buttons
+	.start-quiz-btn,
+	.next-question-btn,
+	.try-again-btn {
+		padding: 0.6rem 1.1rem;
+		font-size: 0.9rem;
+	}
+
+	// Quizz Container
+	.quiz-container {
+		.quiz-header {
+			padding: 1rem 2rem;
+			.quiz-title {
+				font-size: 1.1rem;
+			}
+
+			.quiz-timer {
+				width: 60px;
+				padding: 6px;
+				gap: 0.3rem;
+
+				span {
+					font-size: 1rem;
+				}
+
+				.time-duration {
+					font-size: 0.9rem;
+				}
+			}
+		}
+
+		.quiz-content {
+			.question-text {
+				font-size: 1.3rem;
+			}
+
+			.answer-options {
+				margin: 1.2rem 0;
+				gap: 0.7rem;
+
+				.answer-option {
+					padding: 10px;
+					font-size: 0.9rem;
+				}
+			}
+		}
+
+		.quiz-footer {
+			padding: 1rem 2rem;
+		}
+	}
+
+	// Result Container
+	.result-container {
+		gap: 1.5rem;
+		padding: 1.5rem;
+
+		.result-img {
+			max-width: 90px;
+		}
+
+		.result-title {
+			font-size: 1.3rem;
+		}
+
+		.result-message {
+			font-size: 0.9rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+@media (max-width: 380px) {
+	.quiz-container .quiz-footer {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+}

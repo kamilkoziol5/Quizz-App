@@ -1,0 +1,717 @@
+[
+	{
+		"category": "programming",
+		"questions": [
+			{
+				"question": "Co oznacza skrót HTML?",
+				"options": [
+					"Hyper Text Pre Processor",
+					"Hyper Text Markup Language",
+					"Hyper Text Multiple Language",
+					"Hyper Tool Multi Language"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który z poniższych sposobów jest poprawny do deklaracji zmiennej w JavaScript?",
+				"options": [
+					"var x = 10;",
+					"variable x = 10;",
+					"int x = 10;",
+					"let 10 = x;"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jak napisać komentarz w Pythonie?",
+				"options": [
+					"// To jest komentarz",
+					"# To jest komentarz",
+					"/* To jest komentarz */",
+					"<!-- To jest komentarz -->"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Co oznacza skrót CSS?",
+				"options": [
+					"Cascading Style Sheets",
+					"Colorful Style Sheets",
+					"Computer Style Sheets",
+					"Cascading Simple Sheets"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jak utworzyć funkcję w JavaScript?",
+				"options": [
+					"create function myFunction()",
+					"def function myFunction()",
+					"func myFunction()",
+					"function myFunction()"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Do czego służy operator \"typeof\" w JavaScript?",
+				"options": [
+					"Sprawdza typ zmiennej",
+					"Deklaruje zmienną",
+					"Przypisuje wartość do zmiennej",
+					"Konwertuje zmienną na inny typ"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jak zdefiniować funkcję w języku C?",
+				"options": [
+					"function myFunction()",
+					"def myFunction()",
+					"void myFunction()",
+					"func myFunction()"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Jaka cecha charakteryzuje Pythona?",
+				"options": [
+					"Język kompilowany",
+					"Dynamiczne typowanie",
+					"Język niskopoziomowy",
+					"Statyczne typowanie"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Jaki język jest używany do tworzenia aplikacji na Androida?",
+				"options": ["Python", "Java", "JavaScript", "C++"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Jaki jest cel metody \"forEach()\" w JavaScript?",
+				"options": [
+					"Usuwa duplikaty z tablicy",
+					"Filtruje elementy tablicy",
+					"Sortuje tablicę",
+					"Iteruje po każdym elemencie tablicy"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Co robi słowo kluczowe \"return\" w funkcji?",
+				"options": [
+					"Kończy funkcję i zwraca wartość",
+					"Kontynuuje funkcję",
+					"Kończy funkcję bez wartości",
+					"Kończy działanie programu"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Który element NIE jest semantycznym elementem HTML?",
+				"options": ["<header>", "<footer>", "<div>", "<article>"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Jaki jest główny cel pętli \"for\"?",
+				"options": [
+					"Wykonanie kodu określoną liczbę razy",
+					"Wykonanie kodu aż warunek będzie prawdziwy",
+					"Zdefiniowanie funkcji",
+					"Ewaluacja warunku w pętli"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Która struktura danych działa wedle LIFO (Last In First Out)?",
+				"options": ["Kolejka", "Stos", "Lista jednokierunkowa", "Tablica"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Jakie polecenie Gita zapisuje zmiany w repozytorium?",
+				"options": ["git commit", "git push", "git pull", "git add"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Co robi funkcja \"map()\" w JavaScript?",
+				"options": [
+					"Sortuje tablicę",
+					"Filtruje elementy",
+					"Tworzy nową tablicę",
+					"Modyfikuje oryginalną tablicę"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Czym jest IDE?",
+				"options": [
+					"Zintegrowane środowisko programistyczne",
+					"Funkcja wykonująca kod",
+					"Interpreter",
+					"Metoda wprowadzania kodu"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Która cecha odnosi się do programowania obiektowego?",
+				"options": [
+					"Hermetyzacja",
+					"Modularność",
+					"Rekurencja",
+					"Zarządzanie pamięcią"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Co oznacza skrót SQL?",
+				"options": [
+					"Simple \"Question\" Language",
+					"Systematic Query Language",
+					"Standard \"Question\" Language",
+					"Structured Query Language"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Która z baz danych jest nierelacyjna?",
+				"options": ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jak napisać komentarz w CSS?",
+				"options": [
+					"// To jest komentarz",
+					"/* To jest komentarz */",
+					"# To jest komentarz",
+					"<!-- To jest komentarz -->"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który algorytm sortowania polega na porównywaniu sąsiadujących elementów?",
+				"options": [
+					"Bubble sort",
+					"Insertion sort",
+					"Quick sort",
+					"Merge sort"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Do czego służy blok \"finally\" w Javie?",
+				"options": [
+					"Obsługuje wszystkie wyjątki",
+					"Próbuje obsłużyć wyjątki w czasie wykonania",
+					"Wykonuje kod po try-catch",
+					"Definiuje punkt startowy"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która struktura danych jest najlepsza do szybkiego wyszukiwania?",
+				"options": [
+					"Drzewo BST",
+					"Tablica",
+					"Lista jednokierunkowa",
+					"Kolejka"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jaka jest poprawna składnia instrukcji if w JavaScript?",
+				"options": [
+					"if (condition) {}",
+					"if condition {}",
+					"if {} else",
+					"if {condition}"
+				],
+				"correctAnswer": 0
+			}
+		]
+	},
+	{
+		"category": "geography",
+		"questions": [
+			{
+				"question": "Która rzeka jest najdłuższa na świecie?",
+				"options": ["Amazonka", "Nil", "Jangcy", "Missisipi"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który kraj nazywany jest Krajem Wschodzącego Słońca?",
+				"options": ["Chiny", "Korea Południowa", "Japonia", "Tajlandia"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Który ocean jest największy na świecie?",
+				"options": [
+					"Ocean Atlantycki",
+					"Ocean Indyjski",
+					"Ocean Arktyczny",
+					"Ocean Spokojny"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Który kraj ma największą populację na świecie?",
+				"options": ["Indie", "Chiny", "Stany Zjednoczone", "Indonezja"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Za który kraj odpowiedzialny jest Wielka Rafa Koralowa?",
+				"options": ["Australia", "Stany Zjednoczone", "RPA", "Nowa Zelandia"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Które państwo jest najmniejsze na świecie?",
+				"options": ["Monako", "Liechtenstein", "Watykan", "San Marino"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która góra jest najwyższa na świecie?",
+				"options": ["K2", "Kilimandżaro", "Mount Everest", "Fuji"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Jaka jest stolica Kanady?",
+				"options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Która pustynia jest największa gorąca na świecie?",
+				"options": ["Gobi", "Atacama", "Sahara", "Karakum"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Który kraj nazywany jest Krajem Północnego Słońca (Midnight Sun)?",
+				"options": ["Szwecja", "Finlandia", "Norwegia", "Dania"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Który łańcuch górski jest najdłuższy na świecie?",
+				"options": ["Himalaje", "Góry Skaliste", "Andy", "Alpy"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Przez który kraj przepływa Nil?",
+				"options": ["Amazonka", "Jangcy", "Nil", "Ganges"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która wyspa jest największa na świecie?",
+				"options": ["Grenlandia", "Nowa Gwinea", "Borneo", "Madagaskar"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jaka jest stolica Japonii?",
+				"options": ["Pekin", "Seul", "Tokio", "Hongkong"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Który kraj ma najwięcej stref czasowych?",
+				"options": ["USA", "Rosja", "Kanada", "Australia"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który kraj jest znany z Wieży Eiffla?",
+				"options": ["Niemcy", "Włochy", "Hiszpania", "Francja"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Które miasto jest najludniejsze na świecie?",
+				"options": ["Tokio", "Szanghaj", "Nowy Jork", "Delhi"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Który łańcuch gór znajduje się w Ameryce Południowej?",
+				"options": ["Himalaje", "Góry Skaliste", "Appalachy", "Andy"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Który kontynent nazywany jest „Czarnym Kontynentem”?",
+				"options": ["Azja", "Afryka", "Ameryka Południowa", "Europa"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Jaka jest stolica Brazylii?",
+				"options": ["Buenos Aires", "Rio de Janeiro", "Brasília", "São Paulo"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Jaki jest oficjalny język Brazylii?",
+				"options": ["Hiszpański", "Angielski", "Portugalski", "Francuski"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Który kraj ma najwięcej wulkanów?",
+				"options": ["Japonia", "Indonezja", "USA", "Włochy"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Które miasto nazywane jest „Wielkim Jabłkiem”?",
+				"options": ["Los Angeles", "Nowy Jork", "Chicago", "San Francisco"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który ocean znajduje się na wschód od Afryki?",
+				"options": [
+					"Ocean Indyjski",
+					"Ocean Spokojny",
+					"Ocean Południowy",
+					"Ocean Atlantycki"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Który jest drugi co do wielkości kontynent pod względem powierzchni?",
+				"options": ["Azja", "Afryka", "Ameryka Północna", "Europa"],
+				"correctAnswer": 1
+			}
+		]
+	},
+	{
+		"category": "mathematics",
+		"questions": [
+			{
+				"question": "Jaka jest pierwiastek kwadratowy z 144?",
+				"options": ["10", "11", "12", "13"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Ile to 15 × 13?",
+				"options": ["180", "185", "195", "200"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Ile to 8³?",
+				"options": ["512", "216", "256", "128"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "48 ÷ 6 = ?",
+				"options": ["7", "8", "9", "10"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "3 + 5 × 4 = ?",
+				"options": ["20", "22", "24", "23"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Ile stopni mają kąty w trójkącie?",
+				"options": ["180°", "360°", "90°", "270°"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Jaki jest obwód kwadratu o boku 4 cm?",
+				"options": ["12 cm", "16 cm", "20 cm", "24 cm"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Ile to 11²?",
+				"options": ["121", "131", "141", "111"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Ile to 9 × 12?",
+				"options": ["105", "110", "108", "120"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "16 ÷ 4 = ?",
+				"options": ["2", "3", "4", "5"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "25% z 200 = ?",
+				"options": ["30", "40", "50", "60"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Pole prostokąta o długości 5 cm i szerokości 8 cm = ?",
+				"options": ["40 cm²", "50 cm²", "55 cm²", "60 cm²"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "10 ÷ 2 + 3 = ?",
+				"options": ["8", "7", "9", "6"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "3 × 7 + 2 = ?",
+				"options": ["20", "21", "22", "23"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Największy wspólny dzielnik (NWD) 24 i 36 = ?",
+				"options": ["4", "6", "8", "12"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Najmniejsza wspólna wielokrotność (NWW) 6 i 8 = ?",
+				"options": ["24", "32", "48", "56"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "2³ × 3 = ?",
+				"options": ["12", "15", "18", "24"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "10 × (5 + 3) = ?",
+				"options": ["80", "70", "60", "50"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "14 × 14 = ?",
+				"options": ["186", "196", "206", "216"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Suma pierwszych 10 liczb naturalnych = ?",
+				"options": ["50", "55", "60", "65"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "12 × 15 = ?",
+				"options": ["150", "160", "170", "180"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Pole koła o promieniu 3 cm (π=3.14) = ?",
+				"options": ["28.26 cm²", "31.42 cm²", "36.14 cm²", "39.14 cm²"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "(8 + 2) × 3 = ?",
+				"options": ["30", "32", "34", "28"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "50% z 80 = ?",
+				"options": ["30", "35", "40", "45"],
+				"correctAnswer": 2
+			},
+			{
+				"question": "25 ÷ 5 × 3 = ?",
+				"options": ["12", "15", "18", "20"],
+				"correctAnswer": 1
+			}
+		]
+	},
+	{
+		"category": "Entertainment",
+		"questions": [
+			{
+				"question": "Kto zdobył Oscara dla najlepszego aktora w 2022 roku?",
+				"options": [
+					"Leonardo DiCaprio",
+					"Will Smith",
+					"Joaquin Phoenix",
+					"Matthew McConaughey"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Który film otrzymał Oscara dla najlepszego filmu w 2021 roku?",
+				"options": ["Parasite", "1917", "The Shape of Water", "Nomadland"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Kto zagrał Jacka Dawsona w filmie Titanic?",
+				"options": [
+					"Leonardo DiCaprio",
+					"Brad Pitt",
+					"Johnny Depp",
+					"Tom Hanks"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "W którym serialu zagrali Daenerys Targaryen i Jon Snow?",
+				"options": ["Breaking Bad", "Gra o tron", "Wiedźmin", "Wikingowie"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Kto jest znany jako „Król Popu”?",
+				"options": [
+					"Michael Jackson",
+					"Prince",
+					"Whitney Houston",
+					"Elvis Presley"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Który superbohater mówi: „I am Iron Man”?",
+				"options": ["Black Panther", "Captain America", "Thor", "Iron Man"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "W której franczyzie filmowej pojawia się Luke Skywalker?",
+				"options": [
+					"Guardians of the Galaxy",
+					"Gwiezdne Wojny",
+					"Matrix",
+					"Star Trek"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Kto zagrał Hermionę Granger w serii filmów o Harrym Potterze?",
+				"options": [
+					"Emma Watson",
+					"Anne Hathaway",
+					"Maggie Smith",
+					"Natalie Portman"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Kto wyreżyserował film „Incepcja”?",
+				"options": [
+					"James Cameron",
+					"Steven Spielberg",
+					"Christopher Nolan",
+					"Martin Scorsese"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która artystka wydała album „Lover” w 2019?",
+				"options": [
+					"Billie Eilish",
+					"Taylor Swift",
+					"Ed Sheeran",
+					"Ariana Grande"
+				],
+				"correctAnswer": 1
+			},
+			{
+				"question": "Jaka była pierwsza gra wideo z udziałem Mario?",
+				"options": [
+					"Mario Kart",
+					"Super Mario Bros.",
+					"Donkey Kong",
+					"The Legend of Zelda"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Z którego filmu pochodzi słynna fraza „Here’s looking at you, kid”?",
+				"options": [
+					"Casablanca",
+					"Obywatel Kane",
+					"Ojciec chrzestny",
+					"Przeminęło z wiatrem"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Który kraj wygrał Mistrzostwa Świata FIFA w 2018 roku?",
+				"options": ["Francja", "Niemcy", "Argentyna", "Brazylia"],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Kto stworzył postać Spider‑Mana?",
+				"options": ["Jack Kirby", "Stan Lee", "Steve Ditko", "John Romita"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "W którym filmie Heath Ledger grał Jokera?",
+				"options": [
+					"Mroczny Rycerz",
+					"Batman Początek",
+					"Mroczny Rycerz Powstaje",
+					"Joker"
+				],
+				"correctAnswer": 0
+			},
+			{
+				"question": "Który zespół słynie z utworu „Bohemian Rhapsody”?",
+				"options": [
+					"The Rolling Stones",
+					"Led Zeppelin",
+					"Queen",
+					"The Beatles"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która aktorka wcieliła się w Katniss Everdeen w „Igrzyskach śmierci”?",
+				"options": [
+					"Kristen Stewart",
+					"Shailene Woodley",
+					"Jennifer Lawrence",
+					"Emma Stone"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Kto zagrał Jokera w filmie „Joker” z 2019 roku?",
+				"options": [
+					"Heath Ledger",
+					"Johnny Depp",
+					"Joaquin Phoenix",
+					"Jared Leto"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "W którym filmie Disneya pojawia się piosenka „A Whole New World”?",
+				"options": ["Kopciuszek", "Aladyn", "Piękna i Bestia", "Mała Syrenka"],
+				"correctAnswer": 1
+			},
+			{
+				"question": "W którym serialu występują Walter White i Jesse Pinkman?",
+				"options": [
+					"Narcos",
+					"Better Call Saul",
+					"Rodzina Soprano",
+					"Breaking Bad"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Kto zaśpiewał hit „Shape of You”?",
+				"options": [
+					"Justin Bieber",
+					"Ariana Grande",
+					"Sam Smith",
+					"Ed Sheeran"
+				],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Który film wygrał Oscara dla najlepszego filmu w 2020 roku?",
+				"options": [
+					"Irlandczyk",
+					"Once Upon a Time in Hollywood",
+					"Parasite",
+					"1917"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Kiedy wydano film „Matrix”?",
+				"options": ["1997", "1998", "2000", "1999"],
+				"correctAnswer": 3
+			},
+			{
+				"question": "Kto zagrał Tony’ego Starka / Iron Mana w Marvel Cinematic Universe?",
+				"options": [
+					"Mark Ruffalo",
+					"Chris Evans",
+					"Robert Downey Jr.",
+					"Chris Hemsworth"
+				],
+				"correctAnswer": 2
+			},
+			{
+				"question": "Która piosenkarka jest znana jako „Królowa Popu",
+				"options": ["Mariah Carey", "Lady Gaga", "Whitney Houston", "Madonna"],
+				"correctAnswer": 3
+			}
+		]
+	}
+]
