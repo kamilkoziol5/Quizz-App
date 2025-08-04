@@ -7,7 +7,6 @@
 	width: 100%;
 	background-color: $whiteColor;
 	border-radius: 1rem;
-	border: 1px solid #757575;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
 	display: flex;
 	align-items: center;
@@ -16,8 +15,69 @@
 	gap: 2rem;
 	text-align: center;
 
+	.strength-progress-box {
+		overflow: hidden;
+		width: 100%;
+		background-color: $whiteColor;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		border-radius: 0;
+		pointer-events: none;
+		transition: 300ms ease;
+
+		.strength-container {
+			width: 160px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			.strength-progress {
+				position: relative;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				background: conic-gradient($backgroundColor 0, $strokeColor 0);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.strength-value {
+					position: relative;
+					font-size: 1.4rem;
+					font-weight: 800;
+					color: $textColor;
+				}
+
+				&:before {
+					content: '';
+					position: absolute;
+					width: 120px;
+					height: 120px;
+					background-color: $whiteColor;
+					border-radius: 50%;
+				}
+			}
+
+			.strength-label {
+				font-size: 1.3rem;
+				font-weight: 700;
+				color: $textColor;
+				margin-top: 1rem;
+			}
+		}
+
+		&.show {
+			opacity: 1;
+			padding: 1rem;
+			max-width: 230px;
+		}
+	}
+
 	.result-img {
-		max-width: 120px;
+		max-width: 80px;
 		width: 100%;
 	}
 

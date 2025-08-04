@@ -6,7 +6,14 @@ export default function showQuizResult(questionsIndexHistory, amount) {
 	const result = document.createElement('div');
 	result.classList.add('result-container');
 	result.innerHTML = `
-     <img src="/Quizz-App/quiz-over.png"   class="result-img" alt="Result-image" />
+	 <div class="strength-progress-box">
+	    <div class="strength-container">
+				<div class="strength-progress">
+					<span class="strength-value">0%</span>
+				</div>
+				<p class="strength-label">-----</p>
+			</div>
+			</div>
 			<h2 class="result-title">Quiz Completed!</h2>
 			<p class="result-message">
 				You answered <b>${correctAnswersCount}</b> out of <b>${amount}</b> questions correctly.
@@ -51,4 +58,44 @@ export default function showQuizResult(questionsIndexHistory, amount) {
 			questionsIndexHistory.length = 0;
 		};
 	});
+
+	const progressEl = result.querySelector('.strength-progress');
+	const valueEl = result.querySelector('.strength-value');
+	const strengthLabel = result.querySelector('.strength-label');
+	const percent = (correctAnswersCount / amount) * 100;
+	let progressStartValue = 0;
+	let progressEndValue = percent;
+	let speed = 15;
+
+	progressEl.style.background = `conic-gradient(#3399ff 0deg, #bbbbbb 0deg)`;
+
+	setTimeout(() => {
+		let progressInterval = setInterval(() => {
+			progressStartValue++;
+			valueEl.textContent = `${progressStartValue}%`;
+
+			if (percent === 0) {
+				valueEl.textContent = `0%`;
+				progressEl.style.background = `conic-gradient(#121212 0deg, #bbbbbb 0deg)`;
+				strengthLabel.textContent = 'Keep trying!';
+				return;
+			}
+
+			progressEl.style.background = `conic-gradient(#5246c2 ${
+				progressStartValue * 3.6
+			}deg, #bbbbbb 0deg)`;
+
+			if (progressStartValue >= progressEndValue) {
+				clearInterval(progressInterval);
+
+				if (percent < 50) {
+					strengthLabel.textContent = 'Keep trying!';
+				} else if (percent < 70) {
+					strengthLabel.textContent = 'Good!';
+				} else {
+					strengthLabel.textContent = 'Excellent!';
+				}
+			}
+		}, speed);
+	}, 1000);
 }
